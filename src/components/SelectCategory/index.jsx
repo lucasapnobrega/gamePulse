@@ -1,5 +1,5 @@
 export default ({ filterCategory, selectedCategory}) => {
-  const categories = JSON.parse(localStorage.getItem('game-categories'))
+  const categories = JSON.parse(localStorage.getItem('game-categories')) || []
 
   return (
     <select id="categorySelect" value={selectedCategory} onChange={(ev) => filterCategory(ev.target.value)}>

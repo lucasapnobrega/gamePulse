@@ -7,6 +7,8 @@ import Header from "./components/Header"
 export default function App() {
   const { games, addGame, removeGame, addCategory, filterCategory, selectedCategory } = useGameAndCategory()
 
+  const gamesArray = games || []
+
   const handleRemoveGame = (id) => {
     removeGame(id)
     filterCategory("")
@@ -29,7 +31,7 @@ export default function App() {
       </h3>
 
       <div className="games">
-        {games.length > 0 ? games.map(game => (
+        {gamesArray.length > 0 ? gamesArray.map(game => (
           <Game 
             key={game.id} 
             cover={game.cover} 
