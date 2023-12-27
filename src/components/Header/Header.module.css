@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.logoGroup h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoGroup h1 i {
+  font-size: 2.5rem;
+}
+
+.logoGroup p {
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 1.2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links i {
+  font-size: 2.6rem;
+  cursor: pointer;
+  animation: bounce 1s infinite alternate;
+}
+
+.links i:hover {
+  color: rgb(87, 120, 151);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(4px);
+  }
+  
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+@media (max-width: 530px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .logoGroup h1 {
+    font-size: 2.6rem;
+  }
+
+  .logoGroup h1 i {
+    font-size: 2rem;
+  }
+
+  .logoGroup p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .links i {
+    font-size: 2rem;
+  }
+}
