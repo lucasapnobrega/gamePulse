@@ -1,8 +1,10 @@
-# React + Vite
+# GamePulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto "GamePulse" desenvolvido com React que funciona como uma Biblioteca de Jogos.
 
-Currently, two official plugins are available:
+Recursos:
+• Adicionar, remover jogos e filtrar por categoria.
+• Validação simples de formulário (campo vazio).
+• Utilização do localStorage para preservar os dados, para que você nunca perca suas escolhas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto com o propósito de aperfeiçoar o uso dos componentes React e explorar o hook "useState".
