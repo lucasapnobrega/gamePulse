@@ -3,6 +3,7 @@
 Projeto "GamePulse" desenvolvido com React que funciona como uma Biblioteca de Jogos.
 
 Recursos:
+
 • Adicionar, remover jogos e filtrar por categoria.
 
 • Validação simples de formulário (campo vazio).
