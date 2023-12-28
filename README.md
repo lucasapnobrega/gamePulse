@@ -11,3 +11,5 @@ Recursos:
 • Utilização do localStorage para preservar os dados, para que você nunca perca suas escolhas.
 
 Projeto com o propósito de aperfeiçoar o uso dos componentes React e explorar o hook "useState".
+
+Deploy: https://game-pulse-seven.vercel.app/
